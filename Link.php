@@ -2,13 +2,7 @@
     $temp = $_GET['temp'];
     $hum = $_GET['hum'];
     $waterlevel = $_GET['waterlevel'];
-    $pump = $_GET['pump'];
-    $soil1 = $_GET['soil1'];
-    $soil2 = $_GET['soil2'];
-    $soil3 = $_GET['soil3'];
-    $valve1 = $_GET['valve1'];
-    $valve2 = $_GET['valve2'];
-    $valve3 = $_GET['valve3'];
+
 
 
     $json = ["Temperature" => "$temp",
